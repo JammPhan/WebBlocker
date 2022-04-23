@@ -23,7 +23,27 @@ const imageStyling = () => {
 };
 
 switch (window.location.hostname) {
-  case "www.youtube.com":
+  case "www.instagram.com":
+    document.head.innerHTML = imageStyling();
+    document.body.innerHTML = blockerImage();
+    break;
+  case "www.facebook.com":
+    document.head.innerHTML = imageStyling();
+    document.body.innerHTML = blockerImage();
+    break;
+  case "monkeytype.com":
+    document.head.innerHTML = imageStyling();
+    document.body.innerHTML = blockerImage();
+    break;
+  // case "www.bbc.com":
+  //   document.head.innerHTML = imageStyling();
+  //   document.body.innerHTML = blockerImage();
+  //   break;
+  case "www.ft.com":
+    document.head.innerHTML = imageStyling();
+    document.body.innerHTML = blockerImage();
+    break;
+  case "www.linkedin.com":
     document.head.innerHTML = imageStyling();
     document.body.innerHTML = blockerImage();
     break;
